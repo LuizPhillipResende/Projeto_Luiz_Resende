@@ -7,24 +7,6 @@ private:
     float C2;
 
 public:
-    // Getters
-    int getC1() {
-        return C1;
-    }
-
-    float getC2() {
-        return C2;
-    }
-
-    // Setters
-    void setC1(int value) {
-        C1 = value;
-    }
-
-    void setC2(float value) {
-        C2 = value;
-    }
-
     // Métodos
     void MC1() {
         cout << "Metodo MC1" << endl;
@@ -32,5 +14,9 @@ public:
 
     void MC2() {
         cout << "Metodo MC2" << endl;
+    }
+
+    void MC3() {
+        cout << "Metodo MC3" << endl;
     }
 };
